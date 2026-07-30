@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ezw-compression-studio"
+version = "0.1.0"
+description = "Academic desktop application for EZW-based image compression with wavelet visualization and bitstream inspection."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Abderrahmane Aghaddar" }
+]
+dependencies = [
+  "numpy",
+  "Pillow",
+  "matplotlib",
+  "PyWavelets",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
