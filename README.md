@@ -138,7 +138,29 @@ EZW-Compression-Studio/
 ├── LICENSE
 └── pyproject.toml
 ```
+# 🚀 EZW-Compression-Studio_AGHADDAR
 
+Ce projet peut être exécuté localement sur votre machine en suivant les étapes ci-dessous.
+
+---
+
+## 🛠 Prérequis
+
+Assurez-vous d'avoir installé :
+* [Python 3.x](https://www.python.org/downloads/)
+* [Visual Studio Code](https://code.visualstudio.com/) *(ou votre éditeur de code préféré)*
+
+---
+
+## 📥 Guide d'installation et de lancement
+
+### Option A : Téléchargement en fichier ZIP
+1. Téléchargez le projet en cliquant sur **Code** > **Download ZIP** sur GitHub.
+2. Extrayez/décompressez le fichier `.zip` sur votre ordinateur.
+3. Ouvrez le dossier extrait dans **VS Code** (`Fichier` > `Main`).
+4. Ouvrez le terminal dans VS Code (`Terminal` > `Run`).
+
+Or :
 ## Installation Instructions
 
 1. Open a terminal in the project root.
